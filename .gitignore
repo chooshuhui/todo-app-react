@@ -1,0 +1,41 @@
+*.local
+
+# Build output
+dist/
+dist-ssr
+
+# Vite cache
+.vite/
+
+# Node modules
+node_modules/
+
+# TypeScript cache and output
+*.tsbuildinfo
+
+# Environment files (add more if needed)
+.env
+.env.*.local
+
+# Local coverage reports
+coverage/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
